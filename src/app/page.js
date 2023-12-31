@@ -10,17 +10,17 @@ const Home = () => {
          Under Development
         </marquee>
 
-        <h1 className="text-4xl font-bold mb-8">Hello, I'm AUM</h1>
-        <p className="text-lg leading-relaxed mb-8">
-          Data Analyst at
+        <h1 className="text-white text-4xl font-bold mb-8">Hello, I'm AUM</h1>
+        <p className="text-white text-lg leading-relaxed mb-8">
+          Data Analyst at{' '}
           <Link href="https://sidata.plus" className="text-blue-500 underline">
           Sidata+
-          </Link>
+          </Link>{' '}
           <br />
-          Volunteer Web Developer at
+          Volunteer Web Developer at{' '}
           <Link href="https://revivcommunity.org/" className="text-blue-500 underline">
           Reviv
-          </Link>
+          </Link>{' '}
           <br />
           Data is my lens, storytelling my voice, and together, I hope to make a world where people and the planet thrive.
         </p>
