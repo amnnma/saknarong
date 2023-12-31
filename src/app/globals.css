@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;700&family=IBM+Plex+Mono&display=swap');
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Eczar', serif;
+}
+
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,6 +29,7 @@
 }
 
 body {
+  font-family: 'IBM Plex Mono', monospace;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
