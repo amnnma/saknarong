@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@devnomic/marquee": "^1.0.2",
+    "@eslint/config-array": "^0.17.0",
+    "@eslint/object-schema": "^2.1.4",
+    "glob": "^10.4.2",
     "gray-matter": "^4.0.3",
     "jsdom": "^24.1.0",
     "marked": "^12.0.2",
@@ -17,6 +20,7 @@
     "react": "^18",
     "react-dom": "^18",
     "remark": "^15.0.1",
+    "rimraf": "^5.0.7",
     "swiper": "^11.0.5",
     "vfile": "^6.0.1"
   },
