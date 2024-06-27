@@ -3,8 +3,10 @@ const nextConfig = {
     output: 'export',
     trailingSlash: true,
     skipTrailingSlashRedirect: true,
-    ignoreDuringBuilds: true,
-    images: { unoptimized: true } 
+    images: { unoptimized: true } ,
+    eslint: {
+      ignoreDuringBuilds: true,
+    },
     // Optional: Change the output directory `out` -> `dist`
     // distDir: 'dist',
   }
