@@ -6,7 +6,7 @@ const nextConfig = {
     images: { unoptimized: true } ,
     eslint: {
       ignoreDuringBuilds: true,
-    },
+    }
     // Optional: Change the output directory `out` -> `dist`
     // distDir: 'dist',
   }
